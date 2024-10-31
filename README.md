@@ -97,3 +97,15 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+
+## 開発用
+
+DBコンテナの入り方
+```bash
+docker exec -it ay-backend-practice_devcontainer-db-1 bash
+```
+
+mysqlクラアントの利用
+```bash
+mysql -u root -p
+```
