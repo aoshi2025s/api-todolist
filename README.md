@@ -107,7 +107,14 @@ docker exec -it ay-backend-practice_devcontainer-db-1 bash
 
 mysqlクラアントの利用
 ```bash
+# mysqlに入る
 mysql -u root -p
+
+mysql> show databases;
+mysql> use ay-backend-practice-1;
+mysql> show tables;
+mysql> describe Project;
+mysql> describe Task;
 ```
 
 schema.prismaのフォーマット
