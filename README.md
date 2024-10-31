@@ -114,3 +114,13 @@ schema.prismaのフォーマット
 ```bash
 npx prisma format
 ```
+
+開発環境でのmigration
+```bash
+npx prisma migrate dev
+```
+
+本番環境でのmigration
+```bash
+npx prisma migrate deploy
+```
