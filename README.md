@@ -109,3 +109,8 @@ mysqlクラアントの利用
 ```bash
 mysql -u root -p
 ```
+
+schema.prismaのフォーマット
+```bash
+npx prisma format
+```
