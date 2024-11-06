@@ -6,6 +6,8 @@ services:
     env_file:
       - .env
     tty: true
+    ports:
+      - "3000:3000"
   db:
     image: mysql:9.0.1
     environment:
